@@ -20,7 +20,6 @@
     }
     *{box-sizing:border-box}
     html,body{height:auto}
-
 body{
   margin:0;
   font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
@@ -29,12 +28,10 @@ body{
     radial-gradient(900px 380px at 20% 0%, rgba(255,255,255,.10), transparent),
     radial-gradient(900px 380px at 80% 10%, rgba(34,197,94,.10), transparent),
     linear-gradient(180deg, var(--bg1), var(--bg2));
-
-  overflow-x:hidden;
+overflow-x:hidden;
   overflow-y:auto;
 }
-
-  .stars{
+.stars{
       position:fixed; inset:0; pointer-events:none; opacity:.55;
       background-image:
         radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,.85) 50%, transparent 55%),
@@ -53,9 +50,8 @@ body{
   align-items:flex-start;
   padding:18px;
   z-index:1;
-}
-
-  .card{
+   }
+.card{
       width:min(860px, 94vw);
       background:var(--card);
       color:var(--ink);
@@ -299,8 +295,7 @@ body{
           </div>
         </aside>
       </div>
-
-  <footer>
+<footer>
         <span>🎁 Sem pressão. Só uma lembrança boa de Natal.</span>
         <span>Dica: renomeie o arquivo pra <b>index.html</b> antes de subir no GitHub Pages.</span>
       </footer>
